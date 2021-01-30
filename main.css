@@ -1,3 +1,6 @@
+/* grid-template-columns sirve para establecer número de columnas
+con 50% y 50% divido el ancho en partes iguales para que
+pueda entrar dos columnas*/
 .grid{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -7,10 +10,14 @@
     background: white;
     padding: 1em;
 }
+/* con la clase hover establezco que cuando apunto con mi mause
+los div de clase grid va haber un borde de 1 pixel*/
 .grid div:hover{
     border: 1px solid #6f00ff;
 }
 
+/* uso la clase grid2 para poder crear por separado las columnas
+divididas en 3 */
 .grid2{
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -20,5 +27,17 @@
     padding: 1em;
 }
 .grid2 div:hover{
+    border: 1px solid #6f00ff;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grid3 div{
+    background: white;
+    padding: 1em;
+}
+.grid3 div:hover{
     border: 1px solid #6f00ff;
 }
