@@ -1,3 +1,6 @@
+h2{
+    text-align: center;
+}
 /* grid-template-columns sirve para establecer número de columnas
 con 50% y 50% divido el ancho en partes iguales para que
 pueda entrar dos columnas*/
@@ -29,10 +32,11 @@ divididas en 3 */
 .grid2 div:hover{
     border: 1px solid #6f00ff;
 }
-
+/* grid-template-rows , rows es filas y aquí abajo le estoy poniendo 50px a la primera fila, 150px a la segunda fila */
 .grid3{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 150px;
 }
 .grid3 div{
     background: white;
