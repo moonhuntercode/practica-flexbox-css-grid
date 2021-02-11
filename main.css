@@ -1,3 +1,10 @@
+body{
+    align-content: center;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
 h2{
     text-align: center;
 }
@@ -44,4 +51,25 @@ divididas en 3 */
 }
 .grid3 div:hover{
     border: 1px solid #6f00ff;
+}
+.contenedor{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #131313;
+    color: aqua;
+    display: flex;
+}
+.hijo{
+    background-color: #6f00ff;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
 }
